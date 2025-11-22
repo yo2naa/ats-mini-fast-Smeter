@@ -17,7 +17,7 @@
 
 // SI473/5 and UI
 #define MIN_ELAPSED_TIME         5  // 300
-#define MIN_ELAPSED_RSSI_TIME  200  // RSSI check uses IN_ELAPSED_RSSI_TIME * 6 = 1.2s
+#define MIN_ELAPSED_RSSI_TIME  40  // RSSI check uses IN_ELAPSED_RSSI_TIME * 6 = 0.24s
 #define ELAPSED_COMMAND      10000  // time to turn off the last command controlled by encoder. Time to goes back to the VFO control // G8PTN: Increased time and corrected comment
 #define DEFAULT_VOLUME          35  // change it for your favorite sound volume
 #define DEFAULT_SLEEP            0  // Default sleep interval, range = 0 (off) to 255 in steps of 5
